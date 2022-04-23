@@ -10,16 +10,17 @@ Etapa 2
 > apt upgrade
 
 Etapa 3
-> git clone https://github.com/OliveiraHackerSecurity/IP-Location
+> apt install python3
 
 Etapa 4
-> cd IP-Location
+> git clone https://github.com/OliveiraHackerSecurity/IP-Location
 
 Etapa 5
->
+> cd IP-Location
 
->
+Etapa 6
+> python3 IP-Location.py
 
->
+Etapa 7
+> agora é só digitar o IP que deseja localizar e o script fará o resto!!!
 
->
