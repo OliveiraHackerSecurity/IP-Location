@@ -24,7 +24,7 @@ def main():
     
     # Alvo único ou vários alvos
     if(args.target and args.tlist):
-        logger.PrintError("You can request Geolocation information either for a single target(-t) or a list of targets(-T). Not both!", args.nolog)
+        logger.PrintError("Você pode solicitar informações de geolocalização para um único alvo (-t) ou uma lista de alvos (-T). Não para ambos!", args.nolog)
         sys.exit(2)
         
     # Meu endereço IP ou destino único
