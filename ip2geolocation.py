@@ -42,7 +42,7 @@ def main():
         logger.PrintError("Google maps location is working only with single targets.", args.nolog)
         sys.exit(5)
     
-    #specify user-agent or random
+    # Especificar user-agent ou random
     if(args.uagent and args.ulist):
         logger.PrintError("You can either specify a user-agent string or let IPGeolocation pick random user-agent strings for you from a file.", args.nolog)
         sys.exit(6)
