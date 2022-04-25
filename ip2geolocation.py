@@ -8,7 +8,7 @@ from core.Menu import parser,args,banner
     
 def main():
 
-    # no args provided
+    # nenhum argumento fornecido
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit(1)
