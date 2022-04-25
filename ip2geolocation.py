@@ -27,7 +27,7 @@ def main():
         logger.PrintError("You can request Geolocation information either for a single target(-t) or a list of targets(-T). Not both!", args.nolog)
         sys.exit(2)
         
-    #my ip address or single target
+    # Meu endereço IP ou destino único
     if(args.target and args.myip):
         logger.PrintError("You can request Geolocation information either for a single target(-t) or your own IP address. Not both!", args.nolog)
         sys.exit(3)
