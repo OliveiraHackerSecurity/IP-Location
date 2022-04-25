@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# codificação: UTF-8
+
+
 Autor - OliveiraHackerSecurity
 
 
