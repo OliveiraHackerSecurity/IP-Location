@@ -47,7 +47,7 @@ def main():
         logger.PrintError("You can either specify a user-agent string or let IPGeolocation pick random user-agent strings for you from a file.", args.nolog)
         sys.exit(6)
         
-    #specify proxy or random
+    # Especificar proxy ou aleatório
     if(args.proxy and args.xlist):
         logger.PrintError("You can either specify a proxy or let IPGeolocation pick random proxy connections for you from a file.", args.nolog)
         sys.exit(7)
@@ -58,7 +58,7 @@ def main():
     
     print(banner)
     
-    #retrieve information
+    # Recuper Informações
     if not ipGeoLocRequest.GetInfo(args.uagent, args.tlist, 
                                      args.ulist, args.proxy, args.xlist,
                                      args.csv, args.xml, args.txt, args.g):
