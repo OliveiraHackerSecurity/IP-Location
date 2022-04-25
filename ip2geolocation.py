@@ -37,7 +37,7 @@ def main():
         logger.PrintError("You can request Geolocation information either for a list of targets(-T) or your own IP address. Not both!", args.nolog)
         sys.exit(4)
     
-    #single target and google maps only allowed
+    # Single target e google maps permitidos apenas
     if(args.tlist and args.g):
         logger.PrintError("Google maps location is working only with single targets.", args.nolog)
         sys.exit(5)
