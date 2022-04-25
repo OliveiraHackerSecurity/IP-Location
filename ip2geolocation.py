@@ -8,7 +8,7 @@ from core.Menu import parser,args,banner
     
 def main():
 
-    # nenhum argumento fornecido
+    # Nenhum argumento fornecido
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit(1)
@@ -22,7 +22,7 @@ def main():
         
     logger = Logger(args.nolog, args.verbose)
     
-    #single target or multiple targets 
+    # Alvo único ou vários alvos
     if(args.target and args.tlist):
         logger.PrintError("You can request Geolocation information either for a single target(-t) or a list of targets(-T). Not both!", args.nolog)
         sys.exit(2)
