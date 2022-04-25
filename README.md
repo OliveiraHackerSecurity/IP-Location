@@ -2,7 +2,7 @@
 
 Download/Instalação
 
->git clone https://github.com/maldevel/IP2Location
+>git clone https://github.com/OliveiraHackerSecurity/IP2GeoLocation
 
 >apt install python3-setuptools
 
